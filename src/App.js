@@ -10,8 +10,8 @@ function App() {
       company: "Carey Hughes Solicitors",
       role: "Adiministration  Assistant",
       description:
-        "Managing client onboarding and deed registration using ScotLIS and Amiqus. Gained insight into legal operations and maintained attention to regulatory standards.",
-      time: "2024 – Present",
+        "Manage the registration and ID verification process for around 100 clients per week using digital systems (ScotLIS and Amiqus), maintaining accuracy, compliance, and confidentiality. Act as a first point of contact for clients, delivering a professional and friendly service while meeting strict onboarding deadlines. Provide administrative support within a busy legal office, assisting solicitors and staff with documentation processes and helping to maintain efficient office workflows.",
+      time: "Aug 2021 – Present",
     },
     {
       type: "profile",
@@ -20,32 +20,29 @@ function App() {
     {
       type: "skills",
       skills: {
-        experienced: ["Python","Java",  "JavaScript", "HTML", "CSS", "SQL","C++/C","React", ],
-        intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex", "Git","Node.js","Django",],
+        experienced: ["Python","Java",  "JavaScript", "HTML", "CSS", "SQL","C++/C","React","Git" ],
+        intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex","Langchain","Node.js","Django",],
         learning: ["Next.js", "TypeScript", "Flask", "tailwindcss", "Docker"],
       }
     },
     {
       type: "experience",
-      company: "Sanandaff",
-      role: "CLeaning Operative",
+      company: "Sanandaf UK",
+      role: "Cleaning Operative",
       description:
-       "Performed cleaning duties in a variety of settings, including residential and commercial properties. Developed strong attention to detail and time management skills while ensuring high standards of cleanliness and customer satisfaction.",
-      time: "2025 – Present",
-    },
-    {
-      type: "experience",
-      company: "Biggar High School",
-      role: "SQA Qualifications",
-      description:
-        "Achieved strong academic results with a focus on Mathematics, Physics, and Computing Science.",
-      time: "2015 – 2021",
+       "Promoted to Supervisor within two weeks of joining as a Cleaning Operative during the busy summer turnover of student halls. Oversaw teams of 5–6 staff per shift, managing daily tasks, schedules, and resources to ensure high standards of cleanliness, hygiene, and safety. Liaised with clients to resolve issues, provided training and guidance to staff, and supported compliance with company policies and health & safety regulations, while assisting with equipment and resource transport between sites.",
+      time: "July 2025 – Present",
     },
     {
       type: "qualification",
       title: "University of Glasgow – BSc (Hons) Computing Science (2021–2025)",
       details: `
 **Classification**: Second Class Honours (Division I)
+
+---
+
+**Awards**\\
+• University of Glasgow School of Computing Science – Level 4 Project with the Best Evaluation (2025)
 
 ---
 
@@ -90,9 +87,6 @@ function App() {
 • Computing Science 1P (C2)  
 • Computing Fundamentals (C3)  
 • Computing Science 1S (C3)
-
-***Awards**\\
-• University of Glasgow School of Computing Science – Level 4 Project with the Best Evaluation 
     `,
     },
     {
@@ -113,7 +107,8 @@ function App() {
 • Computing Science (A)  
 • English (B)  
 • Art and Design (B)  
-• Business Management (A)
+• Business Management (A) \\
+• Politics (A)
 
 ---
 
@@ -124,6 +119,7 @@ function App() {
 • Physics (A)  
 • Business Management (A)  
 • Art and Design (B)
+
     `,
     },
     {
@@ -132,6 +128,30 @@ function App() {
       tech: "React, Node.js, MongoDB, Flask",
       description: 'Collaborated with <a href="https://www.res-group.com" target="_blank" rel="noopener noreferrer">RES</a> as part of a 7-person team to develop a full-stack Web App for managing report templates, featuring a built-in graphing editor. Gaining hands-on experience with agile development, version control, and effective cross-functional teamwork.',
       time: "2023",
+    },
+    {
+      type: "project",
+      title: "Profile Website",
+      tech: "HTML, CSS, JavaScript, React, Node.js",
+      github: "https://github.com/CLAYE42/Web_Profile",
+      description:
+        "A personal profile website built with React and Node.js, showcasing my skills and projects.",
+    },
+    {
+      type: "project",
+      title: "Studdit",
+      tech: "HTML, CSS, JavaScript, Django, Python, SQL",
+      github: "https://github.com/2023-WAD-group-project/studdit",
+      description:
+        "Designed and built a Django-based web application providing a Reddit-like service for students, featuring SQL database management and a JavaScript search algorithm.",
+    },
+    {
+      type: "project",
+      title: "Interaction Technique Investigation",
+      tech: "HTML, CSS, JavaScript",
+      github: "https://github.com/CLAYE42/HCS-AE",
+      description:
+        "A human computer interaction project to investigate a new input technique using swiping and tilting.(Previously on Glitch)",
     },
     {
       type: "project",
@@ -163,30 +183,6 @@ function App() {
       github: "https://github.com/CLAYE42/tango_with_django_project",
       description:
         "A web application built with Django, showcasing my backend development skills.",
-    },
-    {
-      type: "project",
-      title: "Studdit",
-      tech: "HTML, CSS, JavaScript, Django, Python, SQL",
-      github: "https://github.com/2023-WAD-group-project/studdit",
-      description:
-        "Designed and built a Django-based web application providing a Reddit-like service for students, featuring SQL database management and a JavaScript search algorithm.",
-    },
-    {
-      type: "project",
-      title: "Interaction Technique Investigation",
-      tech: "HTML, CSS, JavaScript",
-      github: "https://github.com/CLAYE42/HCS-AE",
-      description:
-        "A human computer interaction project to investigate a new input technique using swiping and tilting.(Previously on Glitch)",
-    },
-    {
-      type: "project",
-      title: "Profile Website",
-      tech: "HTML, CSS, JavaScript, React, Node.js",
-      github: "https://github.com/CLAYE42/Web_Profile",
-      description:
-        "A personal profile website built with React and Node.js, showcasing my skills and projects.",
     },
     
   ];
