@@ -180,6 +180,14 @@ function App() {
       description:
         "A human computer interaction project to investigate a new input technique using swiping and tilting.(Previously on Glitch)",
     },
+    {
+      type: "project",
+      title: "Profile Website",
+      tech: "HTML, CSS, JavaScript, React, Node.js",
+      github: "https://github.com/CLAYE42/Web_Profile",
+      description:
+        "A personal profile website built with React and Node.js, showcasing my skills and projects.",
+    },
     
   ];
 
