@@ -8,7 +8,7 @@ function ProfileCard({ centerContent }) {
     title: "Graduate Computing Scientist",
     location: "Glasgow, Scotland",
     bio: "Gradute Computing Scientist with a passion for LLMs, AI, and web development. I love building things that make life easier and more fun.",
-    avatar: "/profile_picture.jpeg",
+    avatar: process.env.PUBLIC_URL + "/profile_picture.jpeg",
   };
 
   const cardStyle = {
