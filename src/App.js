@@ -8,15 +8,15 @@ function App() {
     {
       type: "experience",
       company: "Carey Hughes Solicitors",
-      role: "Administration Assistant",
-      time: "Aug 2021 – Present",
-      description:
-        "Manage the registration and ID verification process for around 100 clients per week...",
+      role: "Administrative Assistant",
+      time: "Aug 2020 – Present",
+      description: "Responsible for managing the registration and ID verification process for around 100 clients per week using digital systems (ScotLIS and Amiqus), ensuring accuracy, efficiency, and compliance. Provides professional client support, maintaining high standards and meeting strict deadlines for onboarding and documentation processes.",
       responsibilities: [
-        "First point of contact for clients, delivering professional service",
-        "Maintained compliance with strict onboarding deadlines",
-        "Assisted solicitors and staff with documentation processes",
-      ],
+        "Managed client registration and ID verification for ~100 clients per week using digital systems, ensuring accuracy and efficiency",
+        "Delivered a professional and friendly service, acting as first point of contact for clients and supporting solicitors and staff",
+        "Maintained compliance with strict onboarding deadlines and handled sensitive documentation with attention to detail",
+        "Contributed to smooth office workflow by assisting in day-to-day administrative and client support operations"
+      ]
     },
     {
       type: "profile",
@@ -36,13 +36,13 @@ function App() {
       company: "Sanandaf UK",
       role: "Supervisor",
       time: "July 2025 – Present",
-      description:
-       "Promoted to Supervisor within two weeks of joining as a Cleaning Operative during the busy summer turnover of student halls. Oversaw teams of 5–6 staff per shift, managing daily tasks, schedules, and resources to ensure high standards of cleanliness, hygiene, and safety. Liaised with clients to resolve issues, provided training and guidance to staff, and supported compliance with company policies and health & safety regulations, while assisting with equipment and resource transport between sites.",
+      description: "Rapidly promoted to Supervisor within two weeks of starting as a Cleaning Operative during the busy summer turnover of student halls, in recognition of reliability and adaptability. Responsible for overseeing cleaning operations across multiple sites, leading teams of 5–6 staff per shift, coordinating daily tasks, schedules, and resource allocation. Communicating with clients to resolve issues, provide training and guidance to staff, ensure compliance with company policies and health & safety regulations, and support the transport of equipment and resources between sites.",
       responsibilities: [
-        "First point of contact for clients, delivering professional service",
-        "Maintained compliance with strict onboarding deadlines",
-        "Assisted solicitors and staff with documentation processes",
-      ],
+        "Supervised and coordinated teams of 5–6 staff per shift, delegating tasks and motivating staff to maintain high standards of cleanliness, efficiency, and safety",
+        "Communicated directly with clients to resolve issues and ensure sites were completed to the expected standard",
+        "Monitored and transported resources and equipment between sites, ensuring smooth operations and service delivery",
+        "Provided training and guidance to staff, supporting compliance with company policies and health & safety regulations"
+      ]
     },
     {
       "type": "skills",
