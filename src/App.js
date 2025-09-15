@@ -45,12 +45,14 @@ function App() {
       ],
     },
     {
-      type: "skills",
-      title: "Personal Skills",
-      skills: {
-        Communication: ["Written", "Verbal", "Presentation"],
-        "Problem Solving": ["Critical Thinking", "Troubleshooting", "Decision Making"],
-        Teamwork: ["Collaboration", "Conflict Resolution", "Motivator", ],
+      "type": "skills",
+      "title": "Personal Skills",
+      "skills": {
+        "Communication": ["Written", "Verbal", "Presentation", "Client Liaison", "Active Listening"],
+        "Problem Solving": ["Critical Thinking", "Troubleshooting", "Decision Making", "Adaptability",],
+        "Teamwork": ["Collaboration", "Conflict Resolution", "Motivator", "Delegation", "Agile/Project Coordination"],
+        "Leadership": ["Supervising Teams", "Guidance & Training", "Performance Monitoring", "Task Allocation"],
+        "Organisation": ["Time Management", "Resource Planning", "Workflow Coordination", "Prioritisation"]
       }
     },
     {
