@@ -8,10 +8,15 @@ function App() {
     {
       type: "experience",
       company: "Carey Hughes Solicitors",
-      role: "Adiministration  Assistant",
-      description:
-        "Manage the registration and ID verification process for around 100 clients per week using digital systems (ScotLIS and Amiqus), maintaining accuracy, compliance, and confidentiality. Act as a first point of contact for clients, delivering a professional and friendly service while meeting strict onboarding deadlines. Provide administrative support within a busy legal office, assisting solicitors and staff with documentation processes and helping to maintain efficient office workflows.",
+      role: "Administration Assistant",
       time: "Aug 2021 – Present",
+      description:
+        "Manage the registration and ID verification process for around 100 clients per week...",
+      responsibilities: [
+        "First point of contact for clients, delivering professional service",
+        "Maintained compliance with strict onboarding deadlines",
+        "Assisted solicitors and staff with documentation processes",
+      ],
     },
     {
       type: "profile",
@@ -28,10 +33,16 @@ function App() {
     {
       type: "experience",
       company: "Sanandaf UK",
-      role: "Cleaning Operative",
+      role: "Supervisor",
+      time: "July 2025 – Present",
       description:
        "Promoted to Supervisor within two weeks of joining as a Cleaning Operative during the busy summer turnover of student halls. Oversaw teams of 5–6 staff per shift, managing daily tasks, schedules, and resources to ensure high standards of cleanliness, hygiene, and safety. Liaised with clients to resolve issues, provided training and guidance to staff, and supported compliance with company policies and health & safety regulations, while assisting with equipment and resource transport between sites.",
-      time: "July 2025 – Present",
+      responsibilities: [
+        "First point of contact for clients, delivering professional service",
+        "Maintained compliance with strict onboarding deadlines",
+        "Assisted solicitors and staff with documentation processes",
+      ],
+      
     },
     {
       type: "qualification",

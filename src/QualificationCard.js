@@ -23,6 +23,7 @@ function QualificationCard({ title, details }) {
         onClick={() => setIsOpen(true)}
         style={{
           ...cardStyle,
+          borderLeft: "4px solid #6f42c1", // experience
           cursor: "pointer",
           transition: "0.2s ease",
         }}

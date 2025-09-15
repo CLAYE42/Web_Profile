@@ -3,8 +3,8 @@ import baseCardStyle from './styles/cardStyle';
 
 function SkillsCard({ skills }) {
   return (
-    <div style={baseCardStyle}>
-      <h3>Skills</h3>
+    <div style={baseCardStyle} >
+      <h3>Coding Skills</h3>
       <div style={styles.grid}>
         <SkillColumn title="Experienced" items={skills.experienced} />
         <SkillColumn title="Intermediate" items={skills.intermediate} />

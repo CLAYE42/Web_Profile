@@ -3,7 +3,12 @@ import baseCardStyle from './styles/cardStyle';
 
 function ProjectCard({ title, tech, github, description,hideGithub }) {
   return (
-    <div style={baseCardStyle}>
+      <div
+        style={{
+          ...baseCardStyle,
+          borderLeft: "4px solid #fd7e14", // 🟧 orange accent for projects
+        }}
+      >
       <h3>{title}</h3>
       <p><strong>Language:</strong> {tech}</p>
       {github && !hideGithub && (
