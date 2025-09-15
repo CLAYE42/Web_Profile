@@ -1,47 +1,55 @@
+// src/SkillsCard.jsx
 import React from 'react';
 import baseCardStyle from './styles/cardStyle';
 
-function SkillsCard({ skills }) {
+function SkillsCard({ title, skills }) {
   return (
-    <div style={baseCardStyle} >
-      <h3>Coding Skills</h3>
+    <div
+      style={{
+        ...baseCardStyle,
+        borderLeft: "4px solid #28a745", // single green accent for all skills cards
+        padding: "20px",
+        boxSizing: "border-box",
+        width: "100%",
+      }}
+    >
+      <h3 style={{ marginBottom: "12px" }}>{title}</h3>
       <div style={styles.grid}>
-        <SkillColumn title="Experienced" items={skills.experienced} />
-        <SkillColumn title="Intermediate" items={skills.intermediate} />
-        <SkillColumn title="Learning" items={skills.learning} />
+        {Object.entries(skills).map(([category, items]) => (
+          <div key={category} style={styles.row}>
+            <strong style={{ marginRight: "6px" }}>{formatCategoryName(category)}:</strong>
+            {items.map((skill, idx) => (
+              <React.Fragment key={idx}>
+                <span>{skill}</span>
+                {idx < items.length - 1 && <span style={{ margin: "0 6px" }}>•</span>}
+              </React.Fragment>
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   );
 }
 
-function SkillColumn({ title, items }) {
-  return (
-    <div style={styles.column}>
-      <h4>{title}</h4>
-      <ul style={styles.list}>
-        {items.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
-    </div>
-  );
+// Format camelCase category names to separate words
+function formatCategoryName(name) {
+  return name.replace(/([a-z])([A-Z])/g, '$1 $2'); // ProblemSolving → Problem Solving
 }
 
 const styles = {
   grid: {
     display: 'flex',
-    justifyContent: 'space-between',
-    gap: '10px',
+    flexDirection: 'column', // stack categories vertically
+    gap: '8px',
     marginTop: '10px'
   },
-  column: {
-    flex: 1
+  row: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    fontSize: '14px',
+    color: '#333',
   },
-  list: {
-    listStyle: "none",
-    padding: 0,
-    margin: 0
-  }
 };
 
 export default SkillsCard;

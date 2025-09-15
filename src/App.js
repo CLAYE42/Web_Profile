@@ -24,10 +24,11 @@ function App() {
     },
     {
       type: "skills",
+      title: "Coding Skills",
       skills: {
-        experienced: ["Python","Java",  "JavaScript", "HTML", "CSS", "SQL","C++/C","React","Git" ],
-        intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex","Langchain","Node.js","Django",],
-        learning: ["Next.js", "TypeScript", "Flask", "tailwindcss", "Docker"],
+        Experienced: ["Python","Java","JavaScript","HTML","CSS","SQL","C++/C","React","Git"],
+        Intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex","Langchain","Node.js","Django"],
+        Learning: ["Next.js","TypeScript","Flask","TailwindCSS","Docker"]
       }
     },
     {
@@ -42,11 +43,21 @@ function App() {
         "Maintained compliance with strict onboarding deadlines",
         "Assisted solicitors and staff with documentation processes",
       ],
-      
+    },
+    {
+      type: "skills",
+      title: "Personal Skills",
+      skills: {
+        Communication: ["Written", "Verbal", "Presentation"],
+        "Problem Solving": ["Critical Thinking", "Troubleshooting", "Decision Making"],
+        Teamwork: ["Collaboration", "Conflict Resolution", "Motivator", ],
+      }
     },
     {
       type: "qualification",
-      title: "University of Glasgow – BSc (Hons) Computing Science (2021–2025)",
+      institution: "University of Glasgow",
+      qualification: "BSc (Hons) Computing Science",
+      time: "2021–2025",
       details: `
 **Classification**: Second Class Honours (Division I)
 
@@ -102,7 +113,9 @@ function App() {
     },
     {
       type: "qualification",
-      title: "Biggar High School – SQA Qualifications (2015–2021)",
+      institution: "Biggar High School",
+      qualification: "SQA Qualifications",
+      time: "2015–2021",
       details: `**YASS**  
 • Open University – Certificate of Higher Education in Computing and IT
 
