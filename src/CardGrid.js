@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Masonry } from "masonic";
 import ProfileCard from "./ProfileCard";
 import ExperienceCard from "./ExperienceCard";
 import SkillsCard from "./SkillsCard";
 import ProjectCard from "./ProjectsCard";
+import QualificationCard from "./QualificationCard";
 import AnimatedOnVisible from "./AnimatedOnVisible";
 import HoverCardWrapper from "./HoverCardWrapper";
-import QualificationCard from "./QualificationCard";
 
 function renderCard(item) {
   const { type, ...props } = item;
@@ -27,26 +27,36 @@ function renderCard(item) {
 }
 
 function getAnimationType(type) {
-  switch (type) {
-    case "profile":
-      return "zoom";
-    case "experience":
-      return "zoom";
-    case "skills":
-      return "zoom";
-    case "project":
-      return "zoom";
-    case "qualification":
-      return "zoom";
-    default:
-      return "zoom";
-  }
+  return "zoom"; // same animation for all cards
 }
 
 function CardGrid({ items }) {
+  const [sortedItems, setSortedItems] = useState(items);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+
+      if (width < 1024) {
+        // Small screens: profile first
+        const profile = items.find((i) => i.type === "profile");
+        const rest = items.filter((i) => i.type !== "profile");
+        setSortedItems([profile, ...rest]);
+      } else {
+        // Desktop: original order (profile second)
+        setSortedItems(items);
+      }
+    };
+
+    handleResize(); // Initial call
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [items]);
+
   return (
     <Masonry
-      items={items}
+      items={sortedItems}
       columnWidth={350}
       columnGutter={20}
       render={({ data }) => (
