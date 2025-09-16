@@ -6,6 +6,8 @@ const cardStyle = {
   boxShadow: "0 0 8px rgba(0,0,0,0.1)",
   width: "100%", // fill column width
   boxSizing: "border-box",
+  willChange: "transform",
+  backfaceVisibility: "hidden",
 };
   
   export default cardStyle;
