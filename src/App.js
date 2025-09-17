@@ -23,15 +23,6 @@ function App() {
       ]
     },
     {
-      type: "skills",
-      title: "Coding Skills",
-      skills: {
-        Experienced: ["Python","Java","JavaScript","HTML","CSS","SQL","C++/C","React","Git"],
-        Intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex","Langchain","Node.js","Django"],
-        Learning: ["Next.js","TypeScript","Flask","TailwindCSS","Docker"]
-      }
-    },
-    {
       type: "experience",
       company: "Sanandaf UK",
       role: "Supervisor",
@@ -43,17 +34,6 @@ function App() {
         "Monitored and transported resources and equipment between sites, ensuring smooth operations and service delivery",
         "Provided training and guidance to staff, supporting compliance with company policies and health & safety regulations"
       ]
-    },
-    {
-      "type": "skills",
-      "title": "Personal Skills",
-      "skills": {
-        "Communication": ["Written", "Verbal", "Presentation", "Client Liaison", "Active Listening"],
-        "Problem Solving": ["Critical Thinking", "Troubleshooting", "Decision Making", "Adaptability",],
-        "Teamwork": ["Collaboration", "Conflict Resolution", "Motivator", "Delegation", "Agile/Project Coordination"],
-        "Leadership": ["Supervising Teams", "Guidance & Training", "Performance Monitoring", "Task Allocation"],
-        "Organisation": ["Time Management", "Resource Planning", "Workflow Coordination", "Prioritisation"]
-      }
     },
     {
       type: "qualification",
@@ -147,6 +127,26 @@ function App() {
 • Art and Design (B)
 
     `,
+    },
+    {
+      type: "skills",
+      title: "Coding Skills",
+      skills: {
+        Experienced: ["Python","Java","JavaScript","HTML","CSS","SQL","C++/C","React","Git"],
+        Intermediate: ["OpenAI API","Sentence Transformers","LlamaIndex","Langchain","Node.js","Django"],
+        Learning: ["Next.js","TypeScript","Flask","TailwindCSS","Docker"]
+      }
+    },
+    {
+      "type": "skills",
+      "title": "Personal Skills",
+      "skills": {
+        "Communication": ["Written", "Verbal", "Presentation", "Client Liaison", "Active Listening"],
+        "Problem Solving": ["Critical Thinking", "Troubleshooting", "Decision Making", "Adaptability",],
+        "Teamwork": ["Collaboration", "Conflict Resolution", "Motivator", "Delegation", "Agile/Project Coordination"],
+        "Leadership": ["Supervising Teams", "Guidance & Training", "Performance Monitoring", "Task Allocation"],
+        "Organisation": ["Time Management", "Resource Planning", "Workflow Coordination", "Prioritisation"]
+      }
     },
     {
       type: "project",
