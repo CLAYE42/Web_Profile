@@ -6,6 +6,10 @@ import Footer from "./Footer";
 function App() {
   const items = [
     {
+      type: "profile",
+      centerContent: true,
+    },
+    {
       type: "experience",
       company: "Carey Hughes Solicitors",
       role: "Administrative Assistant",
@@ -17,10 +21,6 @@ function App() {
         "Maintained compliance with strict onboarding deadlines and handled sensitive documentation with attention to detail",
         "Contributed to smooth office workflow by assisting in day-to-day administrative and client support operations"
       ]
-    },
-    {
-      type: "profile",
-      centerContent: true,
     },
     {
       type: "skills",
