@@ -23,7 +23,7 @@ function ExperienceCard({ company, role, time, description, responsibilities }) 
         onClick={() => setIsOpen(true)}
         style={{
           ...cardStyle,
-          borderLeft: "4px solid #007bff", // experience
+          borderLeft: "4px solid #28a745", // experience
           cursor: "pointer",
           transition: "0.2s ease",
         }}

@@ -10,7 +10,7 @@ function ProjectCard({ title, tech, github, description,hideGithub }) {
         }}
       >
       <h3>{title}</h3>
-      <p><strong>Language:</strong> {tech}</p>
+      <p><strong>Languages:</strong> {tech}</p>
       {github && !hideGithub && (
         <a
           href={github}
@@ -18,7 +18,7 @@ function ProjectCard({ title, tech, github, description,hideGithub }) {
           rel="noopener noreferrer"
           style={{ color: "#007bff", textDecoration: "none", marginTop: "10px" }}
         >
-          🔗 View on GitHub
+          View on GitHub
         </a>
       )}
      <p dangerouslySetInnerHTML={{ __html: description }} />

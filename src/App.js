@@ -150,6 +150,13 @@ function App() {
     },
     {
       type: "project",
+      title: "Award Winning Honours Dissertation – Kowledge Triplet Extraction",
+      tech: "Python, OpenAI GPT Models, FAISS, JSON, Sentence Transformers, LlamaIndex, Langchain",
+      description: 'Researched an automated knowledge triplet extraction pipeline for <a href="https://www.lexaii.com" target="_blank" rel="noopener noreferrer">Lexaii</a>\'s legal judgment system using Large Language Models (LLMs). Developed and implemented multi-step prompting, semantic retrieval, and contextual knowledge injection to improve triplet accuracy.<br/><br/>🏆 Awarded the Prize for the best dissertation evaluation for the Computing Science class of 2025.<br/><br/>📄 Full dissertation available to read on request via email down below.',
+      time: "2024–2025",
+    },
+    {
+      type: "project",
       title: "RES Web App (3rd Year Group Project)",
       tech: "React, Node.js, MongoDB, Flask",
       description: 'Collaborated with <a href="https://www.res-group.com" target="_blank" rel="noopener noreferrer">RES</a> as part of a 7-person team to develop a full-stack Web App for managing report templates, featuring a built-in graphing editor. Gaining hands-on experience with agile development, version control, and effective cross-functional teamwork.',
